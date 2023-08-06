@@ -1,0 +1,133 @@
+{
+    "user": [
+        {
+            "id": 1,
+            "tipodoc":"Cédula Ciudadanía",
+            "numdoc":"1234567890",
+            "nombre":"Mario Alberto",
+            "apellido":"Yepes Caicedo",
+            "fnacimiento": "1982-06-25",
+            "email": "marioyepes@gmail.com",
+            "password":"qwerty"
+        },
+        {
+            "id": 2,
+            "tipodoc":"Pasaporte",
+            "numdoc":"198765432",
+            "nombre":"Laura María",
+            "apellido":"Esguerra Cortés",
+            "fnacimiento": "1987-03-15",
+            "email": "lauraesguerra@gmail.com",
+            "password":"123456"
+        },
+        {
+            "id": 3,
+            "tipodoc":"Tarjeta de identidad",
+            "numdoc":"1014859746",
+            "nombre":"Yeison David",
+            "apellido":"Rodriguez Rodriguez",
+            "fnacimiento": "2005-08-20",
+            "email": "yeisonrodrigueznacun@gmail.com",
+            "password":"Ye123"
+        },
+        {
+            "id": 4,
+            "tipodoc":"Tarjeta de identidad",
+            "numdoc":"1031806335",
+            "nombre":"Pily Carolina",
+            "apellido":"Esguerra Lemus",
+            "fnacimiento": "2005-12-30",
+            "email": "pilycarolina@gmail.com",
+            "password":"Pil12334"
+        },
+        {
+            "id": 5,
+            "tipodoc":"Cédula Ciudadanía",
+            "numdoc":"1000324323",
+            "nombre":"Juan Camilo",
+            "apellido":"Rodriguez Rodriguez",
+            "fnacimiento": "2003-07-27",
+            "email": "juancamilo@gmail.com",
+            "password":"Camil321321"
+        }
+    ],
+    "habitacion":[
+        {
+            "id":101,
+            "nombrehab":"Suite Deluxe",
+            "capacidad":3,
+            "camas":2,
+            "caracteristicas":"2 camas 1 doble 1 sencilla, baño privado",
+            "valornoche":125000
+        },
+    
+        {
+            "id":102,
+            "nombrehab":"Suite Basic",
+            "capacidad":2,
+            "camas":1,
+            "caracteristicas":"1 cama doble, baño privado",
+            "valornoche":100000
+        },
+    
+        {
+            "id":201,
+            "nombrehab":"Suite Basic",
+            "capacidad":4,
+            "camas":2,
+            "caracteristicas":"2 cama doble, baño privado",
+            "valornoche":200000
+        },
+    
+        {
+            "id":202,
+            "nombrehab":"Suite Basic",
+            "capacidad":8,
+            "camas":4,
+            "caracteristicas":"4 cama doble,2 baños privados",
+            "valornoche":300000
+        }
+    ],
+    "reservas": [
+    {
+        "id": 1,
+        "fechareserva": "2022-07-07",
+        "fechaentrada":"2022-08-22",
+        "fechasalida":"2022-08-26",
+        "totalnoches":5,
+        "valorreserva":625000,
+        "userId": 1,
+        "habitacionId":101
+    },
+    {
+        "id": 2,
+        "fechareserva": "2022-04-07",
+        "totalnoches":2,
+        "fechaentrada":"2022-08-20",
+        "fechasalida":"2022-08-21",
+        "valorreserva":300000,
+        "userId": 2,
+        "habitacionId":102
+    },
+    {
+        "id": 3,
+        "fechareserva": "2022-04-27",
+        "totalnoches":2,
+        "fechaentrada":"2022-07-10",
+        "fechasalida":"2022-07-11",
+        "valorreserva":200000,
+        "userId": 2,
+        "habitacionId":201
+    },
+    {
+        "id": 4,
+        "fechareserva": "2022-08-20",
+        "totalnoches":2,
+        "fechaentrada":"2022-09-27",
+        "fechasalida":"2022-09-29",
+        "valorreserva":300000,
+        "userId": 2,
+        "habitacionId":202
+    }       
+    ]
+}
